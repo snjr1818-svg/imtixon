@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация — Технорынок Малика</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MALIKA <span>TECH</span></div>
+        <nav>
+            <a href="home-ru.html">Войти как гость →</a>
+            <div class="lang-switch">
+                <a href="index.html">UZ</a>
+                <a href="index-ru.html" class="active-lang">RU</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="auth-wrapper">
+        <div class="auth-banner">
+            <h1>Центр электроники №1 в Узбекистане</h1>
+            <p>Добро пожаловать в официальный онлайн-каталог технорынка «Малика». Зарегистрируйтесь и получите доступ ко всем возможностям:</p>
+            <ul>
+                <li>✅ Актуальные цены более 300 официальных магазинов</li>
+                <li>✅ Рассрочка 0% через Uzum Nasiya и Alif</li>
+                <li>✅ Все смартфоны с официальной регистрацией UZIMEI</li>
+                <li>✅ Быстрая доставка по Ташкенту за 2 часа</li>
+            </ul>
+        </div>
+
+        <div class="auth-form-side">
+            <h2>Создать аккаунт</h2>
+            <p style="color: #64748b; margin-bottom: 20px;">Заполните данные для продолжения</p>
+
+            <form action="home-ru.html" method="get">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Имя *</label>
+                        <input type="text" placeholder="Например: Сардор" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Фамилия *</label>
+                        <input type="text" placeholder="Например: Каримов" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Номер телефона *</label>
+                    <input type="tel" placeholder="+998 90 123 45 67" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Ваш район</label>
+                        <select>
+                            <option>Чиланзарский район</option>
+                            <option>Юнусабадский район</option>
+                            <option>Шайхантахурский район</option>
+                            <option>Мирзо-Улугбекский район</option>
+                            <option>Другой регион</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Ваш статус</label>
+                        <select>
+                            <option>Покупатель (Клиент)</option>
+                            <option>Владелец магазина (Продавец)</option>
+                            <option>Оптовый покупатель</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Придумайте пароль *</label>
+                    <input type="password" placeholder="Минимум 6 символов" required>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="agree-ru" required style="width: auto;">
+                    <label for="agree-ru" style="margin: 0; font-weight: 400;">Я согласен с условиями использования и политикой конфиденциальности</label>
+                </div>
+
+                <button type="submit" class="btn" style="width: 100%; font-size: 16px;">Зарегистрироваться и войти →</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

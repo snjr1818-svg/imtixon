@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты — Технорынок Малика</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MALIKA <span>TECH</span></div>
+        <nav>
+            <a href="home-ru.html">Главная</a>
+            <a href="catalog-ru.html">Каталог техники</a>
+            <a href="services-ru.html">Услуги и рассрочка</a>
+            <a href="contacts-ru.html" class="active">Магазины и контакты</a>
+            <a href="index-ru.html">Выход</a>
+            <div class="lang-switch">
+                <a href="contacts.html">UZ</a>
+                <a href="contacts-ru.html" class="active-lang">RU</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Адрес, схема блоков и оформление заказа</h2>
+        <p class="section-subtitle">Свяжитесь с нами или забронируйте технику заранее</p>
+
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=80" alt="Карта" class="card-img">
+                <div class="card-body">
+                    <h3>📍 Наш адрес</h3>
+                    <p><strong>г. Ташкент, Шайхантахурский район</strong>, ул. Кичик Халка Йули (ориентир: бывшая фабрика «Малика», напротив мечети Минор).</p>
+                    
+                    <p><strong>🚇 Ближайшее метро:</strong> станция «Минор» (7 минут пешком) и станция «Бодомзор».</p>
+                    <p><strong>🕒 Режим работы:</strong> Понедельник – Воскресенье: с 09:00 до 20:00.</p>
+                    <p><strong>📞 Call-центр:</strong> +998 (71) 200-00-00 | +998 (90) 999-88-77</p>
+
+                    <div style="background: #f1f5f9; padding: 15px; border-radius: 8px; margin-top: 10px;">
+                        <strong>🏬 Навигация по блокам:</strong>
+                        <ul style="margin-left: 20px; margin-top: 8px; font-size: 14px; color: #334155;">
+                            <li><strong>Блок А:</strong> Смартфоны, планшеты, Apple Watch, AirPods.</li>
+                            <li><strong>Блок Б:</strong> Ноутбуки, комплектующие для ПК, сервис-центр.</li>
+                            <li><strong>Блок В:</strong> Телевизоры, PS5, бытовая техника.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>📝 Онлайн-заказ и консультация</h3>
+                    <p>Оставьте свои данные — продавец перезвонит вам в течение 5 минут.</p>
+
+                    <form action="home-ru.html" method="get">
+                        <div class="form-group">
+                            <label>Ваше имя *</label>
+                            <input type="text" placeholder="Введите ваше имя" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Номер телефона *</label>
+                            <input type="tel" placeholder="+998 90 123 45 67" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Какая техника интересует?</label>
+                            <select>
+                                <option>iPhone 16 Pro 256GB — 14 200 000 сум</option>
+                                <option>MacBook Air M3 13.6" — 14 800 000 сум</option>
+                                <option>Samsung Galaxy S24 Ultra — 12 800 000 сум</option>
+                                <option>Sony PlayStation 5 Slim — 6 400 000 сум</option>
+                                <option>Gaming PC RTX 4070 Super — 18 500 000 сум</option>
+                                <option>Apple Watch Ultra 2 — 9 600 000 сум</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Способ оплаты</label>
+                            <select>
+                                <option>Наличные / Пластиковая карта</option>
+                                <option>Рассрочка (Uzum Nasiya / Alif)</option>
+                                <option>Trade-In (Обмен старого устройства)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Комментарий или адрес доставки</label>
+                            <textarea rows="3" placeholder="Например: нужна доставка в Чиланзарский район"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn" style="width: 100%;">Подтвердить заказ ✓</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">© 2026 Malika Tech Market. Все права защищены.</div>
+    </footer>
+
+</body>
+</html>

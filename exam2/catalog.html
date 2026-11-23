@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Katalog — Malika Texnobozori</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MALIKA <span>TECH</span></div>
+        <nav>
+            <a href="home.html">Bosh sahifa</a>
+            <a href="catalog.html" class="active">Texnika katalogi</a>
+            <a href="services.html">Xizmatlar va muddatli to‘lov</a>
+            <a href="contacts.html">Do‘konlar va aloqa</a>
+            <a href="index.html">Chiqish</a>
+            <div class="lang-switch">
+                <a href="catalog.html" class="active-lang">UZ</a>
+                <a href="catalog-ru.html">RU</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Eng ko‘p sotilayotgan texnikalar</h2>
+        <p class="section-subtitle">Kerakli toifani tanlang — barcha mahsulotlar yangi, ochilmagan qutida va 1 yillik kafolatga ega</p>
+
+        <input type="radio" name="category" id="cat-all" class="filter-radio" checked>
+        <input type="radio" name="category" id="cat-phones" class="filter-radio">
+        <input type="radio" name="category" id="cat-laptops" class="filter-radio">
+        <input type="radio" name="category" id="cat-gaming" class="filter-radio">
+
+        <div class="filter-buttons">
+            <label for="cat-all" class="filter-label">📦 Barchasi (6)</label>
+            <label for="cat-phones" class="filter-label">📱 Smartfonlar</label>
+            <label for="cat-laptops" class="filter-label">💻 Noutbuk va kompyuterlar</label>
+            <label for="cat-gaming" class="filter-label">🎮 Geyming va gadjetlar</label>
+        </div>
+        
+        <div class="grid">
+            <div class="card item-phone">
+                <img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=600&q=80" alt="iPhone 16 Pro" class="card-img">
+                <div class="card-body">
+                    <span class="badge badge-hot">🔥 Xit savdo • A blok, 14-do‘kon</span>
+                    <h3>iPhone 16 Pro 256GB</h3>
+                    <p>Desert Titanium, A18 Pro chip, 120Hz ProMotion ekran, rasmiy UZIMEI ro‘yxatdan o‘tgan.</p>
+                    <div class="price">14 200 000 so‘m <span class="old-price">15 100 000</span></div>
+                    <a href="contacts.html" class="btn">Buyurtma berish</a>
+                </div>
+            </div>
+
+            <div class="card item-laptop">
+                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="MacBook Air M3" class="card-img">
+                <div class="card-body">
+                    <span class="badge">B blok, 8-do‘kon</span>
+                    <h3>MacBook Air M3 13.6"</h3>
+                    <p>Apple M3 (8-core), 16GB RAM, 512GB SSD, Midnight rangi. 18 soatgacha batareya quvvati.</p>
+                    <div class="price">14 800 000 so‘m <span class="old-price">15 600 000</span></div>
+                    <a href="contacts.html" class="btn">Buyurtma berish</a>
+                </div>
+            </div>
+
+            <div class="card item-phone">
+                <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=600&q=80" alt="Samsung S24 Ultra" class="card-img">
+                <div class="card-body">
+                    <span class="badge">V blok, 22-do‘kon</span>
+                    <h3>Samsung Galaxy S24 Ultra</h3>
+                    <p>12/512GB, Titanium Gray, Snapdragon 8 Gen 3, S-Pen stilus va Galaxy AI funksiyalari.</p>
+                    <div class="price">12 800 000 so‘m <span class="old-price">13 500 000</span></div>
+                    <a href="contacts.html" class="btn">Buyurtma berish</a>
+                </div>
+            </div>
+
+            <div class="card item-gaming">
+                <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=600&q=80" alt="PlayStation 5" class="card-img">
+                <div class="card-body">
+                    <span class="badge badge-hot">🎮 Geymerlar tanlovi • A blok, 3-do‘kon</span>
+                    <h3>Sony PlayStation 5 Slim</h3>
+                    <p>Diskovodli versiya, 1TB tezkor SSD, 4K 120fps qo‘llab-quvvatlash, 1 ta DualSense.</p>
+                    <div class="price">6 400 000 so‘m <span class="old-price">6 900 000</span></div>
+                    <a href="contacts.html" class="btn">Buyurtma berish</a>
+                </div>
+            </div>
+
+            <div class="card item-laptop">
+                <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=600&q=80" alt="Gaming PC RTX" class="card-img">
+                <div class="card-body">
+                    <span class="badge">B blok, 19-do‘kon</span>
+                    <h3>Gaming PC RTX 4070 Super</h3>
+                    <p>Intel Core i7-14700K, 32GB DDR5, 1TB NVMe, RTX 4070 Super 12GB, suyuqlik sovutish tizimi.</p>
+                    <div class="price">18 500 000 so‘m</div>
+                    <a href="contacts.html" class="btn">Buyurtma berish</a>
+                </div>
+            </div>
+
+            <div class="card item-gaming">
+                <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80" alt="Apple Watch Ultra 2" class="card-img">
+                <div class="card-body">
+                    <span class="badge">A blok, 27-do‘kon</span>
+                    <h3>Apple Watch Ultra 2 49mm</h3>
+                    <p>Titan korpus, sapfir oyna, 100 metrgacha suvga chidamli, Alpine Loop kamar bilan.</p>
+                    <div class="price">9 600 000 so‘m</div>
+                    <a href="contacts.html" class="btn">Buyurtma berish</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">© 2026 Malika Tech Market. Barcha huquqlar himoyalangan.</div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог — Технорынок Малика</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MALIKA <span>TECH</span></div>
+        <nav>
+            <a href="home-ru.html">Главная</a>
+            <a href="catalog-ru.html" class="active">Каталог техники</a>
+            <a href="services-ru.html">Услуги и рассрочка</a>
+            <a href="contacts-ru.html">Магазины и контакты</a>
+            <a href="index-ru.html">Выход</a>
+            <div class="lang-switch">
+                <a href="catalog.html">UZ</a>
+                <a href="catalog-ru.html" class="active-lang">RU</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Самая популярная техника</h2>
+        <p class="section-subtitle">Выберите категорию — все товары новые, запечатанные и с гарантией 1 год</p>
+
+        <input type="radio" name="category" id="cat-all" class="filter-radio" checked>
+        <input type="radio" name="category" id="cat-phones" class="filter-radio">
+        <input type="radio" name="category" id="cat-laptops" class="filter-radio">
+        <input type="radio" name="category" id="cat-gaming" class="filter-radio">
+
+        <div class="filter-buttons">
+            <label for="cat-all" class="filter-label">📦 Все товары (6)</label>
+            <label for="cat-phones" class="filter-label">📱 Смартфоны</label>
+            <label for="cat-laptops" class="filter-label">💻 Ноутбуки и ПК</label>
+            <label for="cat-gaming" class="filter-label">🎮 Гейминг и гаджеты</label>
+        </div>
+        
+        <div class="grid">
+            <div class="card item-phone">
+                <img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=600&q=80" alt="iPhone 16 Pro" class="card-img">
+                <div class="card-body">
+                    <span class="badge badge-hot">🔥 Хит продаж • Блок А, магазин 14</span>
+                    <h3>iPhone 16 Pro 256GB</h3>
+                    <p>Desert Titanium, чип A18 Pro, экран 120Hz ProMotion, официальная регистрация UZIMEI.</p>
+                    <div class="price">14 200 000 сум <span class="old-price">15 100 000</span></div>
+                    <a href="contacts-ru.html" class="btn">Заказать</a>
+                </div>
+            </div>
+
+            <div class="card item-laptop">
+                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="MacBook Air M3" class="card-img">
+                <div class="card-body">
+                    <span class="badge">Блок Б, магазин 8</span>
+                    <h3>MacBook Air M3 13.6"</h3>
+                    <p>Apple M3 (8-core), 16GB RAM, 512GB SSD, цвет Midnight. До 18 часов автономной работы.</p>
+                    <div class="price">14 800 000 сум <span class="old-price">15 600 000</span></div>
+                    <a href="contacts-ru.html" class="btn">Заказать</a>
+                </div>
+            </div>
+
+            <div class="card item-phone">
+                <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=600&q=80" alt="Samsung S24 Ultra" class="card-img">
+                <div class="card-body">
+                    <span class="badge">Блок В, магазин 22</span>
+                    <h3>Samsung Galaxy S24 Ultra</h3>
+                    <p>12/512GB, Titanium Gray, Snapdragon 8 Gen 3, стилус S-Pen и функции Galaxy AI.</p>
+                    <div class="price">12 800 000 сум <span class="old-price">13 500 000</span></div>
+                    <a href="contacts-ru.html" class="btn">Заказать</a>
+                </div>
+            </div>
+
+            <div class="card item-gaming">
+                <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=600&q=80" alt="PlayStation 5" class="card-img">
+                <div class="card-body">
+                    <span class="badge badge-hot">🎮 Выбор геймеров • Блок А, магазин 3</span>
+                    <h3>Sony PlayStation 5 Slim</h3>
+                    <p>Версия с дисководом, 1TB скоростной SSD, поддержка 4K 120fps, 1 геймпад DualSense.</p>
+                    <div class="price">6 400 000 сум <span class="old-price">6 900 000</span></div>
+                    <a href="contacts-ru.html" class="btn">Заказать</a>
+                </div>
+            </div>
+
+            <div class="card item-laptop">
+                <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=600&q=80" alt="Gaming PC RTX" class="card-img">
+                <div class="card-body">
+                    <span class="badge">Блок Б, магазин 19</span>
+                    <h3>Gaming PC RTX 4070 Super</h3>
+                    <p>Intel Core i7-14700K, 32GB DDR5, 1TB NVMe, RTX 4070 Super 12GB, водяное охлаждение.</p>
+                    <div class="price">18 500 000 сум</div>
+                    <a href="contacts-ru.html" class="btn">Заказать</a>
+                </div>
+            </div>
+
+            <div class="card item-gaming">
+                <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80" alt="Apple Watch Ultra 2" class="card-img">
+                <div class="card-body">
+                    <span class="badge">Блок А, магазин 27</span>
+                    <h3>Apple Watch Ultra 2 49mm</h3>
+                    <p>Титановый корпус, сапфировое стекло, защита от воды до 100 м, ремешок Alpine Loop.</p>
+                    <div class="price">9 600 000 сум</div>
+                    <a href="contacts-ru.html" class="btn">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">© 2026 Malika Tech Market. Все права защищены.</div>
+    </footer>
+
+</body>
+</html>
